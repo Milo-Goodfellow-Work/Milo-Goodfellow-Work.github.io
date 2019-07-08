@@ -1,0 +1,58 @@
+.background-gradient {
+  height: 100vh;
+  background: linear-gradient(1206deg, #FFFFFF 0%, #E5E5E5 100%);
+
+}
+
+.card-edit {
+  max-width: 30em;
+  position: relative;
+  margin: auto;
+  border-radius: 9px;
+
+}
+
+.home-card-header {
+  border-bottom-color: #000000;
+  border-bottom-style: solid;
+  font-family: Roboto;
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-color: black;
+
+}
+
+.home-card-group{
+  top: 1em;
+  position: relative;
+  text-align: left;
+
+}
+
+
+.home-text-group {
+  font-family: Roboto;
+  top: 0.5em;
+  position: relative;
+  font-weight: normal;
+  font-color: black;
+  font-size: 1.25em;
+  line-height: 28px;
+
+}
+
+.home-card-button-container {
+  position: relative;
+  text-align: left;
+  max-width: 10em;
+
+}
+
+.btn-changes {
+  margin-top: 1em;
+  position: relative;
+  color: black;
+
+}
