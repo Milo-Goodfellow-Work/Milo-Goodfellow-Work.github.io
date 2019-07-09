@@ -56,3 +56,12 @@
   color: black;
 
 }
+
+.card-html-css {
+  min-width: 30em;
+  min-height: 50em;
+  position: relative;
+  margin: auto;
+  border-radius: 9px;
+
+}
