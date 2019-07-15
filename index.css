@@ -9,6 +9,7 @@
   position: relative;
   margin: auto;
   border-radius: 9px;
+  text-align: left;
 
 }
 
@@ -23,14 +24,6 @@
   font-color: black;
 
 }
-
-.home-card-group{
-  top: 1em;
-  position: relative;
-  text-align: left;
-
-}
-
 
 .home-text-group {
   font-family: Roboto;
@@ -58,10 +51,152 @@
 }
 
 .card-html-css {
-  min-width: 30em;
-  min-height: 50em;
+  padding: 1.5em;
+  max-width: 55em;
+  min-height: 25em;
   position: relative;
   margin: auto;
   border-radius: 9px;
+
+}
+
+.HTML-CSS-card-header {
+  border-bottom-color: #000000;
+  border-bottom-style: solid;
+  font-family: Roboto;
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-color: black;
+
+}
+
+.return-home {
+  color: black;
+  position: relative;
+  top: 1.5em;
+  margin: auto;
+
+}
+
+.html-css-text-group {
+  font-family: Roboto;
+  position: relative;
+  font-weight: normal;
+  font-color: black;
+  font-size: 1.25em;
+  line-height: 28px;
+
+}
+
+.circle-animation-container {
+  width: 15em;
+  height: 15em;
+  border-color: black;
+  border-width: 1em;
+  border-style: solid;
+  background-color: white;
+  margin-right: auto;
+  overflow: hidden;
+
+}
+
+.hover-container {
+  width: 15em;
+  height: 15em;
+  border-color: black;
+  border-width: 1em;
+  border-style: solid;
+  background-color: white;
+  display: table-cell;
+
+}
+
+.on-switch-container {
+  width: 15em;
+  height: 15em;
+  border-color: black;
+  border-width: 1em;
+  border-style: solid;
+  background-color: white;
+  margin-left: auto;
+
+}
+
+.demo-container {
+  display: flex;
+  height: 15em;
+  text-align: center;
+  align-item: center;
+  justify-content: center;
+
+}
+
+.ball {
+  height: 2em;
+  width: 2em;
+  position: relative;
+  border-radius: 100%;
+  background-color: black;
+  animation: bounce-ball-animation 1s infinite;
+  margin: auto;
+
+
+
+}
+
+@keyframes bounce-ball-animation {
+  0%   {top: 1em;}
+  15%  {top: 10em; height: 3em; width: 1em;}
+  20%  {top: 12em; height: 1em; width: 3em;}
+  25%  {top: 10em; height: 3em; width: 1em;}
+  100% {top: 1em;}
+
+}
+
+.hover-demo {
+  height: 3em;
+  width: 3em;
+  position: relative;
+  margin: auto;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.3em;
+  top: 4.5em;
+  transition-duration: 0.5s;
+
+}
+
+.hover-demo:hover {
+  -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.4);
+  transition-duration: 0.5s;
+
+}
+
+.hover-demo:active {
+  background-color: #70FF59;
+  transition-duration: 0.5s;
+
+}
+
+.piano-container {
+  width: 15em;
+  height: 15em;
+  border-color: black;
+  border-width: 1em;
+  border-style: solid;
+  background-color: white;
+  margin-left: auto;
+
+}
+
+.piano {
+  width: 10em;
+  position: relative;
+  top: 4em;
+  margin: auto;
 
 }
