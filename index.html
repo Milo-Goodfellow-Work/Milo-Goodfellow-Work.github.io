@@ -4,8 +4,9 @@
   <head>
 
     <title>
-
+      Milo Goodfellow
     </title>
+    <link rel="icon" href="Images/logo.png"/>
 
     <!--Linking materialize-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -17,7 +18,7 @@
     <!--Custom CSS-->
     <link rel="stylesheet" type="text/css" href="index.css">
 
-    <!--Link Jquery-->
+    <!--Link Jquery materialize-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <!--Link Custom Javascript-->
@@ -26,17 +27,24 @@
     <!--Link materialize Icons-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <!--Jquery importing-->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+
+
   </head>
 
   <body class="background-gradient">
 
-    <div class="container">
+    <div class="container vertical-wrapper">
       <div class="row">
 
         <div class="col l3 center-left">
         </div>
 
-        <div class="col s12 m12 l6">
+        <div class="col s12 m12 l6" style="background-color: red;">
 
 
           <!--HTML/CSS card-->
@@ -73,24 +81,62 @@
             <i class="material-icons" style="color: black;">home</i>
           </div>
 
+
+          <!--Javascript card-->
+          <div class="card card-javascript javascript-fade hide">
+
+            <div class="HTML-CSS-card-header">
+              <span>JS, Jquery, and Jquery UI</span>
+            </div>
+
+            <p class="html-css-text-group">
+              A series of demonstrations all using some amount of javascript
+            </p>
+
+            <div class="demo-container">
+              <div class="mouse-follow-container">
+                <div class="mouse-follower ui-widget-content" id="draggable">
+                </div>
+              </div>
+
+              <div class="slide-show-container">
+                <i class="waves-effect waves-black material-icons large left-chevron">chevron_left</i>
+
+                <div class="slideshow-item-container">
+                  <div class="slide-show-square" id="marg-left" pos_value="pos-1"></div>
+                  <div class="slide-show-circle" id="marg-auto" pos_value="pos-2"></div>
+                  <div class="slide-show-square-circle" id="marg-right" pos_value="pos-3"></div>
+                </div>
+
+                <i class="waves-effect waves-black material-icons large right-chevron">chevron_right</i>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!---Return home button javascript-->
+          <div class="btn-floating btn-large waves-effect waves-black white return-home x-button-js javascript-fade hide">
+            <i class="material-icons" style="color: black;">home</i>
+          </div>
+
           <!--The home card html-->
           <div class="card card-edit">
 
             <div class="card-content">
 
               <div class="home-card-header">
-                <span>Milo -</span>
+                <span>Milo</span>
               </div>
 
               <p class="home-text-group">
-                Hi, I'm Milo! I'm a web developer working at -. I'm proficient in:
+                Hi, I'm Milo! I'm a web developer working at. The following are demonstrations of what I'm capable of:
               </p>
 
               <ul>
                 <li><a class="waves-effect waves-black btn white btn-changes btn-hmtl5">HTML5/CSS</a></li>
-                <li><a class="waves-effect waves-black btn white btn-changes">JAVASCRIPT</a></li>
-                <li><a class="waves-effect waves-black btn white btn-changes">JQUERY</a></li>
-                <li><a class="waves-effect waves-black btn white btn-changes">PROJECTS</a></li>
+                <li><a class="waves-effect waves-black btn white btn-changes btn-javascript">JAVASCRIPT/JQUERY</a></li>
+                <li><a class="waves-effect waves-black btn white btn-changes" href="https://github.com/Milo-Goodfellow-Work">GITHUB</a></li>
               </ul>
 
             </div>
