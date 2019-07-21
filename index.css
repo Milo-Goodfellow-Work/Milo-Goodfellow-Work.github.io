@@ -100,6 +100,7 @@
 .circle-animation-container {
   width: 15em;
   height: 15em;
+  min-width: 15em;
   border-color: black;
   border-width: 1em;
   border-style: solid;
@@ -111,6 +112,7 @@
 
 .hover-container {
   width: 15em;
+  min-width: 15em;
   height: 15em;
   border-color: black;
   border-width: 1em;
@@ -122,6 +124,7 @@
 
 .on-switch-container {
   width: 15em;
+  min-width: 15em;
   height: 15em;
   border-color: black;
   border-width: 1em;
@@ -133,7 +136,7 @@
 
 .demo-container {
   display: flex;
-  height: 15em;
+  min-width: 15em;
   text-align: center;
   align-item: center;
   justify-content: center;
@@ -191,6 +194,7 @@
 
 .piano-container {
   width: 15em;
+  min-width: 15em;
   height: 15em;
   border-color: black;
   border-width: 1em;
@@ -347,5 +351,55 @@
 
 #marg-auto {
   margin: auto;
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  .demo-container {
+    max-width: 15em;
+    display: block;
+    margin: auto;
+
+  }
+
+  .hover-container {
+    position: relative;
+    top: 1em;
+
+  }
+
+  .piano-container {
+    position: relative;
+    top: 2em;
+
+  }
+
+  .card-html-css {
+    height: 62.5em;
+
+  }
+
+  .slide-show-container {
+    transform: translateX(-10em) rotate(90deg);
+    position: relative;
+    top: 11em;
+    margin-left: none;
+    margin-right: auto;
+
+  }
+
+  .card-javascript {
+    height: 70em;
+
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .card-javascript {
+    height: 77.5em;
+
+  }
 
 }
