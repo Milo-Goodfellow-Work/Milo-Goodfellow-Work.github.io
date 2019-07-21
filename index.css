@@ -6,6 +6,8 @@
 .background-gradient {
   height: 100vh;
   background: linear-gradient(1206deg, #FFFFFF 0%, #E5E5E5 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
 }
 
