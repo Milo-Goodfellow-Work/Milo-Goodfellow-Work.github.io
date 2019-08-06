@@ -16,6 +16,31 @@
 
 }
 
+.return-home {
+  color: black;
+  margin: auto;
+
+}
+
+.navigation-div {
+  position: relative;
+  display: flex;
+
+}
+
+.interior-container {
+  position: relative;
+  top: 0.5em
+
+}
+
+.white {
+  background-color: white;
+
+}
+
+
+
 @media only screen and (max-width: 992px) {
   .hide-on-m {
     display: none;
