@@ -49,6 +49,36 @@ This blog is designed to facilitate one specific goal, charting my productivity 
 `);
 
 
+TitleList.push("What is considered productive?");
+ImageList.push("Images/Post3.jpg");
+DateList.push("8/7/2019");
+DetailsList.push(`
+<br/>
+Date: 8/7/2019
+<br/>
+Productive Time: 8h40m30s66
+<br/>
+Wasted Time: 24m16s77
+<br/>
+Unblocked sites: False
+<br/>
+Joined debate discord: FALSE
+`);
+BodyList.push(`
+Productivity and unproductivity are determined as follows:
+<br/>
+<br/>
+Productivity must be conducive to achieving the long term goals I have IE:
+		Practicing C programming
+<br/>
+<br/>
+Unproductivity must not be conducive to achieving the long term goals I have IE:
+		Viewing twitter
+<br/>
+<br/>
+For either to be considered anything I must have chosen to do them, a family dinner is not unproductive. Following this, I can determine what is and is not a productive use of time.
+`);
+
 for(i=TitleList.length-1; i >= 0 ; --i){
   console.log(i);
   CurrentTitle = TitleList[i];
