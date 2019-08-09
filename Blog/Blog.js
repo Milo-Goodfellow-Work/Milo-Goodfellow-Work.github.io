@@ -79,6 +79,26 @@ Unproductivity must not be conducive to achieving the long term goals I have IE:
 For either to be considered anything I must have chosen to do them, a family dinner is not unproductive. Following this, I can determine what is and is not a productive use of time.
 `);
 
+TitleList.push("August 8, 2019");
+ImageList.push("Images/Post4.jpg");
+DateList.push("8/8/2019");
+DetailsList.push(`
+<br/>
+Date: 8/8/2019
+<br/>
+Productive Time: 10h09m25s71
+<br/>
+Wasted Time: 56m34s82
+<br/>
+Unblocked sites: False
+<br/>
+Joined debate discord: FALSE
+`);
+BodyList.push(`
+I don't really have much to say today. It was the last day of my contract with Emmatt meaning I no longer work there.
+It's sad, but I have a letter of recommendation and a new experience. Things that are always welcome.
+`);
+
 for(i=TitleList.length-1; i >= 0 ; --i){
   console.log(i);
   CurrentTitle = TitleList[i];
