@@ -60,7 +60,7 @@ Productive Time: 8h40m30s66
 <br/>
 Wasted Time: 24m16s77
 <br/>
-Unblocked sites: False
+Unblocked sites: FALSE
 <br/>
 Joined debate discord: FALSE
 `);
@@ -90,13 +90,32 @@ Productive Time: 10h09m25s71
 <br/>
 Wasted Time: 56m34s82
 <br/>
-Unblocked sites: False
+Unblocked sites: FALSE
 <br/>
 Joined debate discord: FALSE
 `);
 BodyList.push(`
 I don't really have much to say today. It was the last day of my contract with Emmatt meaning I no longer work there.
 It's sad, but I have a letter of recommendation and a new experience. Things that are always welcome.
+`);
+
+TitleList.push("0-0");
+ImageList.push("Images/Post5.jpg");
+DateList.push("8/10/2019");
+DetailsList.push(`
+<br/>
+Date: 8/10/2019
+<br/>
+Productive Time: 3h37m06s75
+<br/>
+Wasted Time: 35m23s15
+<br/>
+Unblocked sites: FALSE
+<br/>
+Joined debate discord: FALSE
+`);
+BodyList.push(`
+Nothing to say \\_(0-0)_/
 `);
 
 for(i=TitleList.length-1; i >= 0 ; --i){
