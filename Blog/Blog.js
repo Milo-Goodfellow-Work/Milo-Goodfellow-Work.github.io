@@ -118,6 +118,28 @@ BodyList.push(`
 Nothing to say \\_(0-0)_/
 `);
 
+TitleList.push("I used social media today");
+ImageList.push("Images/Post6.jpg");
+DateList.push("8/10/2019");
+DetailsList.push(`
+<br/>
+Date: 8/10/2019
+<br/>
+Productive Time: 5h16m11s03
+<br/>
+Wasted Time: 2h17m18s09
+<br/>
+Unblocked sites: TRUE
+<br/>
+Joined debate discord: FALSE
+`);
+BodyList.push(`
+I unblocked social media today, which was stupid.
+But I also realized something, I genuinely don't enjoy it. It's not a fun or useful tool.
+<br/><br/>I hate it. It's only stressful.
+`);
+
+
 for(i=TitleList.length-1; i >= 0 ; --i){
   console.log(i);
   CurrentTitle = TitleList[i];
