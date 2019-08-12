@@ -8,6 +8,10 @@ DateList = [];
 CompletedPage = '';
 
 
+//PageExample = fetch("https://api.github.com/",{
+//        mode: 'no-cors'})
+
+//console.log(PageExample)
 TitleList.push("Why do I have a blog now?");
 ImageList.push("Images/Post1.jpg");
 DateList.push('8/5/2019');
@@ -139,9 +143,26 @@ But I also realized something, I genuinely don't enjoy it. It's not a fun or use
 <br/><br/>I hate it. It's only stressful.
 `);
 
+TitleList.push("An absolutely horrendously unproductive day");
+ImageList.push("Images/Post7.jpg");
+DateList.push("8/11/2019");
+DetailsList.push(`
+<br/>
+Date: 8/11/2019
+<br/>
+Productive Time: 1h02m09s97
+<br/>
+Wasted Time: 2h18m56s94
+<br/>
+Unblocked sites: FALSE
+<br/>
+Joined debate discord: TRUE
+`);
+BodyList.push(`
+I wasted a large amount of time on discord.
+`);
 
 for(i=TitleList.length-1; i >= 0 ; --i){
-  console.log(i);
   CurrentTitle = TitleList[i];
   CurrentBody = BodyList[i];
   CurrentImage = ImageList[i];
