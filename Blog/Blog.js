@@ -7,11 +7,18 @@ DetailsList = [];
 DateList = [];
 CompletedPage = '';
 
+PageExample = fetch("https://cors-anywhere.herokuapp.com/https://https://raw.githubusercontent.com/Milo-Goodfellow-Work/Milo-Goodfellow-Work.github.io/master/Blog/Posts/Post1.txt")
 
-//PageExample = fetch("https://api.github.com/",{
-//        mode: 'no-cors'})
+textFileParser(PageExample);
 
-//console.log(PageExample)
+function textFileParser(file){
+	let file_list_store = [];
+	file_list_store = file.split(',');
+	console.log(file_list_store);
+	return 0;
+
+}
+
 TitleList.push("Why do I have a blog now?");
 ImageList.push("Images/Post1.jpg");
 DateList.push('8/5/2019');
