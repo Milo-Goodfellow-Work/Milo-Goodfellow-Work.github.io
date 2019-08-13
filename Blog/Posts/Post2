@@ -1,0 +1,14 @@
+How does this blog work?,
+Images/Post2.jpg,
+8/6/2019,
+<br/>
+Date: 8/6/2019
+<br/>
+Productive Time: 1h56m34s97
+<br/>
+Wasted Time: 1h08m22s27
+<br/>
+Unblocked sites: FALSE
+<br/>
+Joined debate discord: FALSE,
+This blog is designed to facilitate one specific goal, charting my productivity over time. Each post contains a body and post-date, as well as holding a variety of additional fields. These fields are as follows: Productive Time, Wasted Time, Unblocked sites, and Joined debate Discord. The first two of these fields are intuitive. They track the time I've spent being productive on a given day and the time I've spent being unproductive on a given day. The next two, however, do not make sense without context. These are Unblocked Sites and Joined debate Discord. They are two methods by which I can be unproductive. To turn my machine strictly to productivity, I have blocked all sites on which I exclusively waste time. This includes youtube, twitter, Bandcamp, and several other social media websites. This can hold a value of True or False dependant on whether or not I unblocked these sites for any reason. The latter of these two, Joined debate Discord, concerns productively using the Discord app. I need Discord to ask for help on more challenging programming questions, but it can be a huge time sink. For this reason, I've included the field "Joined debate Discord". debate servers are where I wasted most of my time online and I refuse to do so again. This allows me to track if I'm responsibly using my time.
