@@ -18,13 +18,26 @@
 
 .return-home {
   color: black;
-  margin: auto;
+
+}
+
+.pagination-move {
+  margin-left: auto;
 
 }
 
 .navigation-div {
   position: relative;
   display: flex;
+
+  /*
+  background-color: white;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 5px 10px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 5px 10px -6px rgba(0,0,0,0.75);
+  box-shadow: 0px 5px 10px -6px rgba(0,0,0,0.75);
+  padding: 1em;
+  */
 
 }
 
@@ -34,12 +47,15 @@
 
 }
 
+.card-image-max-width {
+  max-height: 25em;
+
+}
+
 .white {
   background-color: white;
 
 }
-
-
 
 @media only screen and (max-width: 992px) {
   .hide-on-m {
