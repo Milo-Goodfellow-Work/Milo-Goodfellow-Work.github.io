@@ -1,12 +1,20 @@
 //This constant contains what would normally be a magic string, the base url from which all posts are derived
 const allPostsUrl = "https://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/Milo-Goodfellow-Work/Milo-Goodfellow-Work.github.io/master/Blog/Posts/Post";
+const urlParams = new URLSearchParams(window.location.search);
+const pageNumber = urlParams.get('pageNumber');
 
 async function generateBlogData(postNum){
 	let completedPage = '';
-	for(let i = postNum; i>=1; i--){
-		const rawPage = await pageFetcher(i);
-		const parsedList = pageParser(rawPage);
-		completedPage += newPost(parsedList);
+	const postPerPageNum = postNum-(pageNumber-1)*5;
+	for(let i = postPerPageNum; i>=1; i--){
+		if(i == postPerPageNum - 5){
+			break;
+
+		}else{
+			const rawPage = await pageFetcher(i);
+			const parsedList = pageParser(rawPage);
+			completedPage += newPost(parsedList);
+		}
 
 	}
 
@@ -50,5 +58,7 @@ function newPost(parsedList){
 
 generateBlogData(9).then(function(completedPage){
 	$(".interior-container").append(completedPage);
+	$("#pageNumber"+pageNumber).toggleClass("active");
+	$("#pageNumber"+pageNumber).toggleClass("waves-effect");
 
 })
