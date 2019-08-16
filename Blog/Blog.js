@@ -5,6 +5,7 @@ const pageNumber = urlParams.get('pageNumber');
 
 async function generateBlogData(postNum){
 	let completedPage = '';
+	let paginationNum = 0;
 	const postPerPageNum = postNum-(pageNumber-1)*5;
 	for(let i = postPerPageNum; i>=1; i--){
 		if(i == postPerPageNum - 5){
@@ -15,6 +16,14 @@ async function generateBlogData(postNum){
 			const parsedList = pageParser(rawPage);
 			completedPage += newPost(parsedList);
 		}
+
+	}
+
+	for(let i = postNum/5; i>=0; i--){
+		++paginationNum;
+		const newPaginationButton = `<li class="waves-effect" id="pageNumber${paginationNum}"><a href="?pageNumber=${paginationNum}">${paginationNum}</a></li>`;
+		$('.pagination').append(newPaginationButton);
+
 
 	}
 
@@ -56,7 +65,7 @@ function newPost(parsedList){
 
 }
 
-generateBlogData(10).then(function(completedPage){
+generateBlogData(11).then(function(completedPage){
 	$(".interior-container").append(completedPage);
 	$("#pageNumber"+pageNumber).toggleClass("active");
 	$("#pageNumber"+pageNumber).toggleClass("waves-effect");
