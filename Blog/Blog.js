@@ -65,7 +65,7 @@ function newPost(parsedList){
 
 }
 
-generateBlogData(17).then(function(completedPage){
+generateBlogData(18).then(function(completedPage){
 	$(".interior-container").append(completedPage);
 	$("#pageNumber"+pageNumber).toggleClass("active");
 	$("#pageNumber"+pageNumber).toggleClass("waves-effect");
